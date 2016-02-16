@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:id="@+id/pref_alert_sound"
+        android:key="pref_alert_sound"
+        android:title="@string/pref_alert_sound"
+        android:summary="@string/pref_alert_sound_summ"
+        android:textColor="#FFFFFF"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:id="@+id/pref_alert_vibrate"
+        android:key="pref_alert_vibrate"
+        android:title="@string/pref_alert_vibrate"
+        android:summary="@string/pref_alert_vibrate_summ"
+        android:textColor="#FFFFFF"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="pref_alert_poll_frequency"
+        android:title="@string/pref_alert_poll_frequency"
+        android:dialogTitle="@string/pref_alert_poll_frequency"
+        android:entries="@array/settings_pull_delay_human_value"
+        android:entryValues="@array/settings_pull_delay_human_value"
+        android:defaultValue="@string/pref_alert_poll_frequency_default" />
+
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Travel Buddy</string>
+    <string name="title_activity_maps">Travel Buddy</string>
+    <string name="title_activity_help">Help and Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_help">Help</string>
+    <string name="action_search">Search</string>
+    <string name="action_map_key">Alerts and Key</string>
+    <string name="title_activity_map_key">Alerts and Map Key</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_transport_alert">Transport Alert</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_alert_sound">Notification Sound</string>
+    <string name="pref_alert_sound_summ">Switch notification sound on or off</string>
+    <string name="pref_alert_vibrate">Notification Vibrate</string>
+    <string name="pref_alert_vibrate_summ">Switch notification vibrate on or off</string>
+    <string name="pref_alert_poll_frequency">Alert polling frequency</string>
+    <string name="pref_alert_poll_frequency_default">Every 10 minutes</string>
+    <string name="alertoff">Alert Off</string>
+    <string name="everymin">Every minute</string>
+    <string name="every5mins">Every 5 minutes</string>
+    <string name="every10mins">Every 10 minutes</string>
+    <string name="every30mins">Every 30 minutes</string>
+    <string name="everyhour">Every hour</string>
+
+    <string-array name="settings_pull_delay_human_value">
+        <item>@string/alertoff</item>
+        <item>@string/everymin</item>
+        <item>@string/every5mins</item>
+        <item>@string/every10mins</item>
+        <item>@string/every30mins</item>
+        <item>@string/everyhour</item>
+    </string-array>
+
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_search_results">Search Results</string>
+
+</resources>
